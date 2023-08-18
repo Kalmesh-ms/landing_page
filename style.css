@@ -1,0 +1,163 @@
+body{
+    margin:0
+}
+
+
+.bigcont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0;
+    font-family: Roboto,monospace;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-size: small;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+    padding: 30px 70px 90px 70px;
+    align-items: center;
+}
+.headerlog{
+    font-size: large;
+    font-weight:bolder;
+    font-family:'Times New Roman', Times, serif;
+}
+.hright{
+    display: flex;
+    gap:15px;
+    align-items: center;
+}
+
+.acontainer{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    gap:16px;
+    padding: 20px 70px 90px 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.herotxt{
+    font-size: xx-large;
+    font-weight:bolder;
+}
+
+.subtxt{
+    color: lightgray;
+}
+
+.moon{
+    flex: 0 1 5%;
+}
+
+.red{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: red;
+    align-self: center;
+}
+
+.asubc button{
+    padding: 5px;
+    width:60px;
+}
+
+.bcont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.bsubc{
+    display: flex;
+    justify-content: space-around;
+    gap:36px;
+    padding: 20px 70px 70px 70px;
+    align-items: baseline;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap :10px;
+    font-size: small;
+    width: 150px;
+}
+
+.bsubc img{
+    border: 3px solid black;
+    border-radius: 10%;
+}
+
+.ccont{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.ccont p{
+    font-weight: lighter;
+    font-size: large;
+    font-family: "light italic";
+    padding:0 70px;
+}
+
+.author{
+    align-self: flex-end;
+    padding-right: 130px;
+    font-weight: bold;
+}
+
+.dcont{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    background-color: #3882f6;
+    padding: 40px 40px;
+    margin: 40px 370px;
+    color: white;
+    border: white;
+    border-radius: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.dcont button{
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 0.6rem;
+    color: white;
+    width:100px;
+}
+
+.head{
+    font-weight:bolder;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 20px;
+    color: white;
+}
