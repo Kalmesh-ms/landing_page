@@ -49,6 +49,7 @@ a{
 img{
     flex-wrap: wrap;
     width:100%;
+    flex-shrink: 1;
 }
 .moon{
     flex-basis: 70%;
@@ -106,6 +107,7 @@ img{
     gap :10px;
     font-size: small;
     width: 150px;
+    flex-shrink:1;
 }
 
 .bsubc img{
